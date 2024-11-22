@@ -1,4 +1,5 @@
-import { Helmet } from 'react-helmet-async';
+/* eslint-disable react/prop-types */
+import { Helmet } from "react-helmet-async";
 
 export default function DocumentTitle({ children }) {
   return (
